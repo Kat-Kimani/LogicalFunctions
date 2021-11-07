@@ -1,18 +1,24 @@
 // LogicalFunctions.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 using namespace std;
 
 int main()
 {
 	int age;
-	cout << " Please Enter the Age \n";
-	cin >> age; cout << endl;
+
+	cout <<"Admission to Kindergaten Year 2021." <<endl;
+	cout <<"\n";
+	cout<<"Please Enter Childs Age: \n";
+	cin>> age;
+	cout<< endl;
 
 	if (age >= 4) {
 		cout << "Admit to School";
-
+		cout << "\n\n";
+	}
+	else {
+		cout << "Cannot Admit To Kindergaten. Invalid Age";
+		cout << "\n\n";
 	}
 
 		return 0;
